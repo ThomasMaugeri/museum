@@ -37,6 +37,7 @@
     justify-content: center;
     width:30px;
     padding:10px;
+    position: fixed;
     
     a{
         text-decoration: none;

@@ -39,17 +39,19 @@
     
     .left{
         width: 50%;
-        display: fixed;
+        display: flex;
+        flex-direction: column;
         img{
             width: 100%;
            height: 500px;
-           display: block;
+           
            
         }
     }
     .right{
         width: 50%;
-        
+        //height:1000px;
+        //overflow: auto;
         
         .right-up{
             background-color: red;
